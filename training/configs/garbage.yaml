@@ -1,0 +1,23 @@
+# YOLO11 OBB 垃圾分类数据集配置
+# 4大类垃圾检测
+
+# 数据集路径
+train: ./dataset/images/train
+val: ./dataset/images/val
+test: ./dataset/images/test
+
+# 类别数量
+nc: 4
+
+# 类别名称
+names: 
+  0: youhai      # 有害垃圾
+  1: kehuishou   # 可回收物
+  2: chuyu       # 厨余垃圾
+  3: qita        # 其他垃圾
+
+# 类别说明：
+# - youhai (有害): 电池、灯泡、药品、油漆桶
+# - kehuishou (可回收): 可乐瓶、纸张、塑料瓶、易拉罐
+# - chuyu (厨余): 苹果、香蕉、菜叶、剩饭
+# - qita (其他): 烟头、尘土、陶瓷、卫生纸

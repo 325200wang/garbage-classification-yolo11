@@ -1,0 +1,44 @@
+# Training Environment
+# Install: pip install -r requirements.txt
+
+# Core - Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.200
+
+# Model Conversion
+onnx>=1.14.0
+onnxsim>=0.4.33
+onnxruntime>=1.15.0
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data & Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.65.0
+requests>=2.31.0
+
+# Logging & Experiment Tracking
+# wandb>=0.15.0  # Optional: Weights & Biases
+# tensorboard>=2.13.0  # Optional: TensorBoard
+
+# Development & Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Jupyter (optional, for experimentation)
+# jupyter>=1.0.0
+# ipython>=8.14.0

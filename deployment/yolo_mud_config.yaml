@@ -1,0 +1,35 @@
+# YOLO MUD 配置文件
+# 用于嵌入式设备模型部署
+
+type: yolo11_obb
+name: yolo11s-obb-garbage
+version: 1.0.0
+
+# 模型路径 (相对于 MUD 文件位置或绝对路径)
+model_path: ./my_model.cvimodel
+
+# 检测参数
+nms_threshold: 0.7
+confidence_threshold: 0.58
+
+# 类别配置
+classes:
+  - kehuishou   # 0 - 可回收物
+  - chuyu       # 1 - 厨余垃圾
+  - youhai      # 2 - 有害垃圾
+  - qita        # 3 - 其他垃圾
+
+# 输入配置
+input:
+  width: 640
+  height: 640
+  format: RGB
+  mean: [0.0, 0.0, 0.0]
+  scale: [1.0, 1.0, 1.0]
+
+# 输出配置
+output:
+  # OBB 输出格式
+  # 每个检测框包含: x, y, w, h, angle, confidence, class_id
+  type: obb
+  num_classes: 4
