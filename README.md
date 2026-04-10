@@ -325,7 +325,7 @@ MIT License - 详见 [LICENSE](./LICENSE)
 ## 👨‍💻 作者
 
 - **王昱程**
-- GitHub: [@你的用户名](https://github.com/你的用户名)
+- GitHub: [@325200wang](https://github.com/325200wang)
 
 如果这个项目对你有帮助，请给个 ⭐ Star！
 
